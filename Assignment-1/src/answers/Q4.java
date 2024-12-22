@@ -13,7 +13,7 @@ public class Q4 {
 
         for (int i = 0; i < split.length; i++) {
             ch += Math.pow(Integer.valueOf(split[i]), split.length);
-            System.out.println(ch);
+           
         }
 
         if (ch == no) {
