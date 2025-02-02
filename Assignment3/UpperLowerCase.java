@@ -1,3 +1,5 @@
+package Assignment3;
+
 public class UpperLowerCase {
 
     static void lowerCase(String str) {
