@@ -45,12 +45,12 @@ public class Q6 {
                     try {
                         withdraw(sc.nextInt());
                     } catch (Exception e) {
-                        System.out.println(e);
+                        System.out.println(e.getMessage());
                     }
                     break;
                 case 3:
-                System.out.println("Thank You.");
-                break;
+                    System.out.println("Thank You.");
+                    break;
 
                 default:
                     System.out.println("Invalid Input.");
