@@ -6,11 +6,11 @@ public class Q3 {
     static void sort(String str) {
         char[] charArray = str.toCharArray();
         for (int i = 0; i < charArray.length - 1; i++) {
-            for (int j = 0; j < charArray.length - 1 - i; j++) {
-                if (charArray[j] > charArray[j + 1]) {
-                    char temp = charArray[j];
-                    charArray[j] = charArray[j + 1];
-                    charArray[j + 1] = temp;
+            for (int j = i+1; j < charArray.length; j++) {
+                if (charArray[i] > charArray[j]) {
+                    char temp = charArray[i];
+                    charArray[i] = charArray[j];
+                    charArray[j] = temp;
                 }
             }
         }
